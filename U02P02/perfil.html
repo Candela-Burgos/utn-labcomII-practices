@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Perfil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Mi perfil</h1>
+        <form>
+            <input type="text" value="ESTUDIANTE" readonly name="estudiante" id="estudiante">
+            <br>
+            <label for="nombreComp">Nombre completo:</label>
+            <input type="text" name="nombreComp" id="nombreComp">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad">
+            <br>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="Argentino">Argentino</option>
+                <option value="Portugues">Portugues</option>
+                <option value="Chileno">Chileno</option>
+                <option value="Estadounidense">Estadounidense</option>
+                <option value="Venezolano">Venezolano</option>
+            </select>
+            <br>
+            <label for="condLab">Condición laboral:</label>
+            <select name="condLab" id="condLab">
+                <option value="Desempleado">Desempleado</option>
+                <option value="En busqueda laboral">En busqueda laboral</option>
+                <option value="Trabajo part time">Trabajo part time</option>
+                <option value="Trabajo full time">Trabajo full time</option>
+            </select>
+
+            <h2>Información de gustos personales:</h2>
+            <label for="musica">Gusto musical:</label>
+            <input type="text" name="musica" id="musica">
+            <br>
+            <label for="comidaPref">Comida preferida:</label>
+            <select name="comidaPref" id="comidaPref">
+                <option value="Fideos">Fideos</option>
+                <option value="En busqueda laboral">Pizza</option>
+                <option value="Hamburguesa">Hamburguesa</option>
+                <option value="Burrito">Burrito</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar" name="Enviar" id="Enviar">
+            <br>
+            <label for="guardarDatos">Recordar mis datos.</label>
+            <input type="checkbox" name="guardarDatos" id="guardarDatos">
+        </form>
+    </body>
+</html>

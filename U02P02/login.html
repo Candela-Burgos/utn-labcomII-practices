@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>LogIn</h1>
+        <ol>
+            <li>Complete con Nombre y Apellido</li>
+            <li>Cree una contraseña</li>
+            <li>Demuestre que no es un robot</li>
+            <li>Acepte que recuerde sus datos</li>
+        </ol>
+        <hr>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+            <label for="contrasenia">Contraseña:</label>
+            <input type="password" name="contrasenia" id="contrasenia">
+            <br>
+            <label for="noRobot">No soy un robot.</label>
+            <input type="checkbox" name="noRobot" id="noRobot">
+            <br>
+            <label for="guardarDatos">Recorda mis datos.</label>
+            <input type="checkbox" name="guardarDatos" id="guardarDatos">
+            <input type="submit" value="Enviar" name="enviar" id="enviar">
+        </form>
+    </body>
+</html>
