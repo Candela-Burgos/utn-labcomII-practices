@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -8,33 +9,66 @@ html {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #007700;
+  background-color: #00775d;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .logo {
   color: #fff;
   font-weight: 700;
   display: inline-block;
+} 
+
+.logo i {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 10px;
 }
+
 .nav-links {
-    display: flex;
+  display: flex;
   list-style: none;
 }
+
 .nav-item a {
   display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
   color: #fff;
+}
+
+.nav-item-login a{
+    color: #80f68e;
+}
+
+/* HOVER */
+
+.nav-item:hover {
+  background-color: #00906c;
+}
+
+.nav-item:hover a {
+  color: #00ffcc;
+}
+
+.nav-item-login:hover {
+    background-color: #47ff5ca4;
+}
+
+.nav-item-login:hover a {
+    color: #0e5817;
 }
